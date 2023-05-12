@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family= Poppins :wght@100;300;400;500;600 & display=swap');
+:root{
+    --main-color: #e84242;
+    --black-color: #5b5b5b;
+    --border: 0.1rem solid rgba(255,255,255, 0.4);
+}
+*{
+font-family: 'Poppins', sans-serif;
+margin:0;
+padding: 0;
+box-sizing: border-box;
+outline: none;
+border: none;
+text-decoration: none;
+text-transform: capitalize;
+transition: 0.2s ease;
+}
+/* base html codes */
+html{
+    font-size: 90%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(97, 231, 142);
+    height: 200vh;
+}
+.header{
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 0 7%;
+    margin: 2rem 7%;
+    border-radius: 30rem;
+    box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+.konum1{
+    position:absolute;
+    left:150px;
+    top:250px;
+}
+.konum2{
+    position: absolute;
+    left:1000px;
+    top:250px;
+}
+    
+    
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    color: var(--black-color);
+    border-bottom: 0.1rem solid transparent;
+}
+.header .navbar .active,
+.header .navbar a:hover{
+    border-color:var(--main-color) ;
+    padding-bottom: 0.5rem;
+}
+
+
+.AnaSayfa{
+    min-height: 100vh;
+}
+.AnaSayfa .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    gap:1.5rem;
+}
+.AnaSayfa .content {
+    font-size: 1.3rem;
+    color: rgb(34, 78, 14);
+}
+.AnaSayfa .box-container .box{
+    padding: 3rem;
+    background-color: gray;
+    border-radius: 3rem;
+    box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+    
+
+}
+.AnaSayfa .box-container .box img{
+    width: 70%;
+    object-fit: cover;
+}
+
+section{
+    padding: 0 7%;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 3.75rem;
+    border-radius: 30rem;
+    color: #fff;
+    background-color: var(--black-color);
+    cursor: pointer;
+}
+
