@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family= Poppins :wght@100;300;400;500;600 & display=swap');
+
+.page{
+    min-height: 100vh;
+    background: url(../resimler/erbaa.webp);
+    background-size: 100% 100%;
+   
+    font-size:xx-large;
+    color:rgb(0, 16, 64);
+    margin: -2.5rem;
+    background-attachment: fixed;
+    background-repeat:repeat-y;
+    
+}
+
+.page1{
+    background-color: rgb(43, 111, 160);
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 70%;
+    margin: 7rem 10%;
+    position: absolute;
+    border-radius: 3rem;
+}
+.solakaydır1{
+    background-size: 30rem;
+    float:left;
+    padding:0 20px 20px 0;
+    object-fit: cover;
+}
+
+
+.page2{
+    width: 900px;
+    margin:auto;
+    
+    
+    background-color: rgb(144, 185, 140);
+    padding-left: 70px;
+    padding-top: 30px;
+    font-size: 50%;
+    margin: 70rem 5%;
+    
+    border-radius: 3rem;
+    font-size: 50%;
+   
+   
+    display: grid;
+    
+}
+.solakaydır2{
+    background-size: 30rem;
+    float:left;
+    padding:0 20px 20px 0;
+    
+}
+
+
+.page3{
+    background-color: rgb(144, 185, 140);
+    padding-left: 30px;
+    padding-top: 650px;
+    font-size: 50%;
+    margin: 7rem 10%;
+    border-radius: 3rem;
+    font-size: 50%;
+    display:flex;
+   
+}
+.sağakaydır{
+    float:right;
+    padding:0 20px 20px 0;
+}
+
+
+
+
+
