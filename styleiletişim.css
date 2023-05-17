@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family= Poppins :wght@100;300;400;500;600 & display=swap');
+
+.iletişim{
+    background-color: rgb(106, 147, 103);
+    border-radius: 10rem;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 150%;
+    
+}
+input[type=text]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+input[type=email]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+input[type=date]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+input[type=submit]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+input[type=reset]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.as{
+    background-color: rgb(199, 255, 195);
+    border-radius: 5rem;
+}
+
+.öd{
+    background-color: rgb(199, 255, 195);
+    border-radius: 5rem;
+}
+
+.fs{
+    background-color: rgb(199, 255, 195);
+    border-radius: 5rem;
+}
+
+.bölüm{
+    background-color: rgb(199, 255, 195);
+    border-radius: 5rem;
+}
+
+.dos{
+    background-color: rgb(199, 255, 195);
+    border-radius: 5rem;
+}
+
+.metin{
+    background-color: rgb(199, 255, 195);
+    border-radius: 5rem;
+}
+

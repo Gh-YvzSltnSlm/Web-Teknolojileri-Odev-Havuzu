@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İLETİSİM</title>
+</head>
+<link rel="stylesheet" href="styles/styleansayfa.css">
+<link rel="stylesheet" href="styles/styleiletişim.css">
+<body>
+    <header class="header">
+      <img src="resimler/yaprak.png" alt="YÜKLENEMEDİ" width="100" height="100">
+      <nav class="navbar">
+        <a href="AnaSayfa.html" >Ana Sayfa</a>
+       
+        <a href="login.html" >Login</a>
+        <a href="#iletişim" class="active" >İletişim</a>
+        
+      </nav>
+    </header>
+<body>
+    <section class="iletişim">
+       <form  style="text-align: center;" action="iletişimbilgi.html">
+        
+        <section class="as">
+        <label for="ad">Adınız :</label>
+        <input type="text" id="ad" name="ad" >
+        
+        <br>
+        <label for="soyad">Soy Adınız :</label>
+        <input type="text" id="soyad" name="soyad">
+        <br>
+        <label for="e-posta">E-Posta Adresiniz :</label>
+        <input type="email" id="email" name="email">
+        <br><br><br><br>
+        Doğum Tarihinizi Giriniz:
+        <input type="date" id="date" name="date">
+        </section>
+        
+        <br><br><br><br>
+
+        <section class="öd">ÖĞRENİM DURUMUNUZU SEÇİNİZ:<br>
+        <input type="radio"  name="email" value="İLKOKUL">İLKOKUL<br>
+        <input type="radio"  name="email" value="ORTAOKUL">ORTAOKUL<br>
+        <input type="radio"  name="email" value="LİSE">LİSE<br>
+        <input type="radio"  name="email" value="ÖNLİSANS">ÖNLİSANS<br>
+        <input type="radio"  name="email" value="LİSANS">LİSANS<br>
+        <input type="radio"  name="email" value="YÜKSEK LİSANS">YÜKSEK LİSANS<br>
+        </section>
+        <br><br><br><br>
+
+
+        <section class="fs">FAVORİ DERSLERİNİZİ SEÇİNİZ:<br>
+            <input type="checkbox" name="1" value="Matematik-II">Matematik-II<br>
+            <input type="checkbox" name="2" value="Fizik-II">Fizik-II<br>
+            <input type="checkbox" name="3" value="Web Teknolojileri">Web Teknolojileri<br>
+            <input type="checkbox" name="4" value="Nesneye Dayalı Programlama">Nesneye Dayalı Programlama<br>
+            <input type="checkbox" name="5" value="Olasılık Ve İstatistik">Olasılık Ve İstatistik<br>
+            <input type="checkbox" name="6" value="İngilizce">İngilizce
+
+
+        </section>
+        <br><br><br><br>
+
+
+
+        <section class="bölüm">
+            BÖLÜMÜNÜZÜ SEÇİNİZ:<br>
+            <input type="text" list="bölümler">
+            <datalist id="bölümler">
+                <option value="CE">
+                Bilgisayar Mühendisliği
+                </option>
+                <option value="SE">
+                Yazılım Mühendisliği
+                </option>
+                <option value="EEE">
+                 Elektrik-Elektronik Mühendisliği
+                </option>
+                <option value="ME">
+                Makina Mühendisliği
+                </option>
+                <option value="İM">
+                    İnşaat Mühendisliği
+                    </option>
+                </datalist>
+        </section>
+        <br><br><br><br>
+
+        <section class="dos">
+            Yüklemek İstediğiniz Dosyayı Seçiniz:<br>
+        <input type="file" name="dosya" multiple >
+        </section>
+        <br><br><br><br>
+
+
+        <section class="metin">
+            İLETMEK İSTEDİĞİNİZ MESAJ VARSA YAZINIZ<br><br>
+            <textarea name="mesaj" rows="10" cols="30" >
+                
+                </textarea>
+
+        </section>
+        <br><br><br><br>
+
+        <input type="submit" name="gönder" value="GÖNDER" >
+        <input type="reset" value="TEMİZLE">
+
+
+   
+
+       </form>
+    </section>
+
+</body>
+</html>
